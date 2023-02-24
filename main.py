@@ -1,5 +1,5 @@
 import hashlib
-
+#this function is called to generate hashdata
 def hashgenerator(data):
     result = hashlib.sha256(data.encode())
     return result.hexdigest()
